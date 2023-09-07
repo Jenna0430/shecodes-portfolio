@@ -71,24 +71,40 @@ p{
 }
 
 /* css for the about page */
-.section-about{
+.section-content{
   padding: 160px 20px;
 }
 
-.about-content{
+.content{
   margin: 30px;
 }
 
-.section-about h1{
+.section-content h1{
   font-size: 64px;
   line-height: 1.3;
 }
 
-.section-about h2{
+.section-content h2{
   font-size: 18px;
   font-family: var(--default-font);
 }
 
+/* css for the work page */
+.content h3{
+  font-size: 24px;
+  font-family: var(--default-font);
+  line-height: 1.5;
+  
+}
+
+.content p{
+    font-size: 14px;
+}
+
+.content{
+  text-align: center;
+  padding: 0;
+}
 
 
 @media (max-width: 900px){
@@ -109,7 +125,7 @@ p{
   }
 
   /* media queries for the about page */
-  .section-about{
+  .section-content{
     text-align: center;
     padding: 0;
   }
