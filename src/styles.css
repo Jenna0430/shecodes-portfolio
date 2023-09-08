@@ -35,7 +35,7 @@ p{
 .hero{
   background: var(--background-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .hero p{
   font-size: 36px;
@@ -72,7 +72,7 @@ p{
 
 /* css for the about page */
 .section-content{
-  padding: 160px 20px;
+  padding: 70px 20px;
 }
 
 .content{
